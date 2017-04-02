@@ -1,0 +1,32 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{ item.toDo}} </ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list>
+    <ion-item>
+      <ion-label stacked>To do</ion-label>
+      <ion-input type="text" [(ngModel)]="item.toDo"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label stacked>Description</ion-label>
+      <ion-input type="text" [(ngModel)]="item.description"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label stacked>Due Date</ion-label>
+      <ion-input type="date" [(ngModel)]="item.dueDate"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label stacked>Priority</ion-label>
+      <ion-input type="number" [(ngModel)]="item.priority"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label stacked>Notes</ion-label>
+      <ion-textarea [(ngModel)]="item.notes"></ion-textarea>
+    </ion-item>
+  </ion-list></ion-content>
