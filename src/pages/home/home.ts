@@ -15,39 +15,39 @@ export class HomePage {
   constructor(public navCtrl: NavController) {
     this.toDoItems = [
       {
-        "toDo": "Learn HTML",
-        "description": "Learn HTML coding",
-        "dueDate": "2017-07-17",
-        "priority": 1,
-        "notes:": ""
+        toDo: "Learn HTML",
+        description: "Learn HTML coding",
+        dueDate: "2017-07-17",
+        priority: 1,
+        notes: "HyperText Markup Language.  The standard for aurthoring web pages. The first thing to learn for web development"
       }
       , {
-        "toDo": "Learn CSS",
-        "description": "Learn CSS coding",
-        "dueDate": "2017-07-18",
-        "priority": 1,
-        "notes:": ""
+        toDo: "Learn CSS",
+        description: "Learn CSS coding",
+        dueDate: "2017-07-18",
+        priority: 1,
+        notes: ""
       }
       , {
-        "toDo": "Learn JavaScript",
-        "description": "Learn JavaScript coding",
-        "dueDate": "2017-07-19",
-        "priority": 1,
-        "notes:": ""
+        toDo: "Learn JavaScript",
+        description: "Learn JavaScript coding",
+        dueDate: "2017-07-19",
+        priority: 1,
+        notes: ""
       }
       , {
-        "toDo": "Learn npm",
-        "description": "Learn npm CLI",
-        "dueDate": "2017-07-20",
-        "priority": 2,
-        "notes:": ""
+        toDo: "Learn npm",
+        description: "Learn npm CLI",
+        dueDate: "2017-07-20",
+        priority: 2,
+        notes: ""
       }
       , {
-        "toDo": "Learn TypeScript",
-        "description": "Learn TypeScript coding",
-        "dueDate": "2017-07-21",
-        "priority": 2,
-        "notes:": ""
+        toDo: "Learn TypeScript",
+        description: "Learn TypeScript coding",
+        dueDate: "2017-07-21",
+        priority: 2,
+        notes: ""
       }
     ];
   }
